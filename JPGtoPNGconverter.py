@@ -2,8 +2,6 @@ import sys
 import os
 from PIL import Image
 
-#TESTING
-
 # NÃO                              # curr_dir = './' + sys.argv[1]
 # NECESSÁRIO                       # new_dir = './' + sys.argv[2]
 
