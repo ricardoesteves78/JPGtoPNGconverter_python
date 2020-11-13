@@ -36,5 +36,3 @@ try:
 
 except FileNotFoundError as err:
     print('File not found...')
-# convert images to png
-# save to new folder
