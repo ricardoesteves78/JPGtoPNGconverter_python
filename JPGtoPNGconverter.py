@@ -3,9 +3,6 @@ import os
 from PIL import Image
 
 
-# print(os.listdir('.'))
-# print(os.getcwd())
-
 # NÃO                              # curr_dir = './' + sys.argv[1]
 # NECESSÁRIO                       # new_dir = './' + sys.argv[2]
 
