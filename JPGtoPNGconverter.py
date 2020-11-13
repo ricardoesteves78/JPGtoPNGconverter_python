@@ -2,7 +2,7 @@ import sys
 import os
 from PIL import Image
 
-# check if new\ exists, if not create
+
 # print(os.listdir('.'))
 # print(os.getcwd())
 
@@ -13,7 +13,7 @@ from PIL import Image
 curr_dir = sys.argv[1]
 new_dir = sys.argv[2]
 
-# print(repr(new_dir))
+# check if new\ exists, if not create
 if not os.path.isdir(new_dir):  # OU os.path.exists
     os.mkdir(new_dir)
     #print('need to create a new dir')
