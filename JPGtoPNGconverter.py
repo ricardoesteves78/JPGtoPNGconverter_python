@@ -2,10 +2,6 @@ import sys
 import os
 from PIL import Image
 
-# grab first and second argument
-# print(sys.argv[1])
-# print(sys.argv[2])
-
 # check if new\ exists, if not create
 # print(os.listdir('.'))
 # print(os.getcwd())
@@ -13,6 +9,7 @@ from PIL import Image
 # NÃO                              # curr_dir = './' + sys.argv[1]
 # NECESSÁRIO                       # new_dir = './' + sys.argv[2]
 
+# grab first and second argument
 curr_dir = sys.argv[1]
 new_dir = sys.argv[2]
 
