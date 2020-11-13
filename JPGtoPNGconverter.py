@@ -2,21 +2,18 @@ import sys
 import os
 from PIL import Image
 
-# grab first and second argument
-# print(sys.argv[1])
-# print(sys.argv[2])
 
-# check if new\ exists, if not create
 # print(os.listdir('.'))
 # print(os.getcwd())
 
 # NÃO                              # curr_dir = './' + sys.argv[1]
 # NECESSÁRIO                       # new_dir = './' + sys.argv[2]
 
+# grab first and second argument
 curr_dir = sys.argv[1]
 new_dir = sys.argv[2]
 
-# print(repr(new_dir))
+# check if new\ exists, if not create
 if not os.path.isdir(new_dir):  # OU os.path.exists
     os.mkdir(new_dir)
     #print('need to create a new dir')
@@ -39,5 +36,3 @@ try:
 
 except FileNotFoundError as err:
     print('File not found...')
-# convert images to png
-# save to new folder
